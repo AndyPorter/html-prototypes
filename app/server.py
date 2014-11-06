@@ -35,6 +35,10 @@ def edge_of_proto(e):
 def hackday_land_record():
   return render_template('hackday/land-record.html', next_page="404")
 
+@app.route('/hackday/land-ownership-record-1')
+def hackday_land_record_1():
+  return render_template('hackday/land-record-1.html', next_page="404")
+
 # ---------------------------------------------------------------------------
 
 # LAST OF THE ALPHA PROTOTYPES!
