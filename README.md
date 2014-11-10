@@ -33,6 +33,18 @@ When you've confirmed you have Ruby installed, run ```gem install sass``` to ins
 
 ## Getting started
 
+### Stand alone
+
+pip install -r requirements.txt
+
+python app/server.py
+
+or
+
+source run_dev.sh
+
+### In Development Environment (from upstream master)
+
 Get hold of the [development environment](https://github.com/LandRegistry/development-environment) and get it running :)
 
 Then in a new tab:
@@ -41,3 +53,5 @@ Then in a new tab:
 * To have sass files watched: ```grunt```
 
 Off you go.
+
+
