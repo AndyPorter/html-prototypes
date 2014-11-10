@@ -39,6 +39,10 @@ def hackday_land_record():
 def hackday_land_record_1():
   return render_template('hackday/land-record-1.html', next_page="404")
 
+@app.route('/hackday/land-ownership-record-2')
+def hackday_land_record_2():
+  return render_template('hackday/land-record-2.html', next_page="404")
+
 # ---------------------------------------------------------------------------
 
 # LAST OF THE ALPHA PROTOTYPES!
